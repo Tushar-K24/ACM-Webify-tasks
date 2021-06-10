@@ -1,0 +1,61 @@
+body{
+    line-height: 1.8    rem;
+}
+
+.head{ 
+    width:100%;
+    height:50vh;
+    padding-top: 25%;
+    background-image: url("https://raw.githubusercontent.com/usict-acm/webify-tasks-2021/master/task_2/images/image1.jpeg");
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.head > p{
+    color: azure;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    background-color: gray;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    margin:auto;
+} 
+
+.section{
+    padding: 4rem;
+    background-color: #132c33;
+    text-align: center;
+    color: whitesmoke;
+    height: 30vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.one{
+    background-color: darkgray;
+    color: #414040;
+}
+
+.image{
+    height:60vh;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+
+.two{
+    background-image: url("https://raw.githubusercontent.com/usict-acm/webify-tasks-2021/master/task_2/images/image2.jpeg");
+}
+
+.three{
+    background-image: url("https://raw.githubusercontent.com/usict-acm/webify-tasks-2021/master/task_2/images/image3.jpeg");
+}
+.image>p{
+    padding: 30vh;
+    margin:0;
+    font-size: xx-large;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    letter-spacing: 0.5rem;
+}
+
