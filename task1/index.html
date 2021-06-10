@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <main>
+        <p class="survey">Let us know how we can improve freeCodeCamp</p>
+        <form>  
+            <div class="form">
+                <label for="name">* Name: </label>
+                <div class="form_input">
+                    <input name="name" id="name" type="text" required>
+                </div>
+            </div>
+            <div class="form">
+                <label for="mail">* Email: </label>
+                <div class="form_input">
+                    <input name="mail" id="mail" type="email" required>
+                </div>
+            </div>
+            <div class="form">
+                <label for="age">* Age: </label>
+                <div class="form_input">
+                    <input name="age" id="age" type="number" required>
+                </div>
+            </div>
+            <div class="form">
+                <label for="role"> 
+                    Which option best describes your current role?
+                </label>
+                <div class="form_input">
+                    <select id="role" name="role">
+                        <option value="student">Student</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="N/A">Prefer not to answer</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form">
+                <label for="recommend">* How likely is that you would recommend freeCodeCamp to a friend?
+                </label>
+                <div class="form_input">
+                    <input id="definitely" name="recommend"    type="radio" value="definitely">
+                    <label for="definitely">Definitely</label>
+                    <br>
+                    <input id="maybe" name="recommend" type="radio" value="maybe">
+                    <label for="maybe">Maybe</label>
+                    <br>
+                    <input id="not_sure" name="recommend" type="radio" value="not sure">
+                    <label for="not_sure">Not sure</label>
+                </div>
+            </div>
+            <div class="form">
+                <label for="liked">
+                    What do you like most in FCC:
+                </label>
+                <div class="form_input">
+                    <select name="liked">
+                        <option value="">Select an option</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="N/A">Prefer not to answer</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form">
+                <label>
+                    Things that should be improved in the future(Check all that apply):
+                </label>
+                <div class="form_input">
+                    <input id="frontend" name="improvement" type="checkbox" value="front end">
+                    <label for="frontend">Front-end Projects</label>
+                    <br>
+                    <input id="backend" name="improvement" type="checkbox" value="back end">
+                    <label for="backend">Back-end Projects</label>
+                    <br>
+                    <input id="datavis" name="improvement" type="checkbox" value="data visualization">
+                    <label for="datavis">Data Visualization</label>
+                </div>
+            </div>
+            <div class="form">
+                <button class="button" type="Submit">Submit</button>
+            </div>
+        </form> 
+    </main>
+</body>
+</html>

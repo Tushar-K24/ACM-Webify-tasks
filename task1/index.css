@@ -1,0 +1,44 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    background-color: whitesmoke;
+    margin: auto;
+    max-width: 70%;
+    height: 100%;
+}
+
+.survey{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+.form{
+    padding:auto;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form>label{
+    width: 50%;
+    text-align: end;
+}
+
+.form_input{ 
+    margin: 1rem;
+    width: 50%;
+}
+
+.button{
+    margin: 1rem;
+}
